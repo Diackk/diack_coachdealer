@@ -112,6 +112,8 @@ Citizen.CreateThread(function()
 	end
 end)
 
+
+-- Edit Wagons and prices here --
 function ShopMenu()
     MenuData.CloseAll()
     local elements = {

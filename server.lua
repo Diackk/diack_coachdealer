@@ -7,9 +7,9 @@ local _source = source
             print(car)
             TriggerClientEvent("diack_coachdealer:spawnCar", _source, car)
             user.removeMoney(price)
-            TriggerClientEvent('redem_roleplay:Tip', _source, "You have (~e~rented~q~) a wagon", 4000)  
+            TriggerClientEvent('redem_roleplay:Tip', _source, "You have (~e~rented~q~) a wagon for $" .. price, 4000)  
         elseif user.getMoney() < price then
-            TriggerClientEvent('redem_roleplay:Tip', _source, "You (~e~dont~q~) have enough money", 4000)
+            TriggerClientEvent('redem_roleplay:Tip', _source, "You (~e~dont~q~) have enough money, this costs $" .. price, 4000)
         end
     end)
 end)
