@@ -13,9 +13,10 @@ Requirements
 Installation
 
 1. Drag and drop diack_coachdealer into rescources folder
-2. Add `ensure diack_coachdealer` to your server.cfg file
-3. Config is at the top of the `client.lua` file if you wish to change the blip, location of dealer and dealer name
-4. If You wish to change the wagons sold then scroll down till you find `-- Edit Wagons and prices here --`
+2. Remove `-main` fromt he fodler name
+3. Add `ensure diack_coachdealer` to your server.cfg file
+4. Config is at the top of the `client.lua` file if you wish to change the blip, location of dealer and dealer name
+5. If You wish to change the wagons sold then scroll down till you find `-- Edit Wagons and prices here --`
 
 Preview 
 
